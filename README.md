@@ -6,7 +6,7 @@
 
 - image upload
 - image transformation (crop, resize, watermark, etc)
-- cloud-based storage
+- cloud-based storage (Cloudfare R2)
 - image size and type validation
 - rate-limiting for transformation route
 - asychronous image uploads and transformation
