@@ -86,3 +86,6 @@ To get more details about the endpoints structure, auth requirements, request/re
 ## Contributions
 
 Spotted a bug or thought of a nice feature to add? Please fork the repo and open a Pull Request!
+
+## Challenge
+[Challenge from roadmap.sh](https://roadmap.sh/projects/image-processing-service)
