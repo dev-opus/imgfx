@@ -81,8 +81,8 @@ Endpoints in the service fall under two categories: **authentication** and **ima
 | transform images           | /api/images/transforms | POST   |     -      |   -    |           yes           | transform an already uploaded image                                          |
 | transformed images records | /api/images/transforms | GET    | skip, take |   -    |           yes           | get a list of transformed image records (skip and take are paginators)       |
 
-To get more details about the endpoints structure, auth requirements, request/response and error formats, start up the service visit `http://localhost:<port>/ui` to view the **openapi** specs in your browser.
+To get more details about the endpoints structure, auth requirements, request/response and error formats, start up the service and visit `http://localhost:<port>/ui` to view the **openapi** specs in your browser.
 
 ## Contributions
 
-Spotted a bug or though of a nice feature to add? Please fork the repo and open a Pull Request!
+Spotted a bug or thought of a nice feature to add? Please fork the repo and open a Pull Request!
