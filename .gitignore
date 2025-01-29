@@ -1,0 +1,17 @@
+# dev
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+
+
+# deps
+node_modules/
+
+# env
+.env
+.env.production
+
+# logs
+logs/
+dist/
+

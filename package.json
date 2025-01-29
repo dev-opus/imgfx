@@ -1,0 +1,37 @@
+{
+  "name": "imgfx",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:db": "bash db-setup.sh",
+    "stop:db": "docker stop $(docker ps -aq)",
+    "dev": "npx tsx watch src/index.ts",
+    "build": "npx tsup --format esm src",
+    "migrate": "npx prisma migrate deploy"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.733.0",
+    "@hono/node-server": "^1.13.7",
+    "@hono/zod-openapi": "^0.18.3",
+    "@prisma/client": "^6.2.1",
+    "@scalar/hono-api-reference": "^0.5.167",
+    "amqplib": "^0.10.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.17",
+    "hono-rate-limiter": "^0.4.2",
+    "prisma": "^6.2.1",
+    "redis": "^4.7.0",
+    "sharp": "^0.33.5",
+    "winston": "^3.17.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.6",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.11.17",
+    "tsup": "^8.3.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.7.3"
+  }
+}

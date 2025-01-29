@@ -1,0 +1,8 @@
+.env
+node_modules
+logs
+.gitignore
+*.md
+*compose*.yaml
+tsconfig.json
+*.sh
