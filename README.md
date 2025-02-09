@@ -2,22 +2,24 @@
 
 ## Overview
 
-**imgfx** is a POC RESTful image processing service with Node.js. Features of the service include:
+**imgfx** is a POC RESTful API image processing service built with Node.js.
+
+Features of the service include:
 
 - image upload
 - image transformation (crop, resize, watermark, etc)
 - cloud-based storage
 - image size and type validation
 - rate-limiting for transformation route
-- asychronous image uploads and transformation
-- JWT Auth
+- asychronous image uploads and transformation using rabbitmq
+- JWT Authentication/Authorization
 
 ## Tech Stack
 
 This service was built using the following technologies:
 
 - **Node.js:** Runtime
-- **Sharp:** Image transformation module
+- **Sharp:** Image transformation npm module
 - **Hono:** Web framework
 - **Hono-Openapi:** Openapi documentation
 - **Scalar-Openapi:** Openapi document visualiser
@@ -40,7 +42,7 @@ This service was built using the following technologies:
 
 ## Running the service
 
-The recommended way to run the service is by using docker. All you need to do to run the service using docker is to simply run `docker compose up` in the project's directory inside terminal.
+The recommended approach is to use docker. All you need to do to run the service using docker is to simply run `docker compose up` in the project's directory inside terminal.
 
 For local setup, follow the steps listed:
 
